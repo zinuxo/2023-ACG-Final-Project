@@ -1,0 +1,58 @@
+\begin{thebibliography}{1}
+
+\bibitem{AK2012}
+Nadir Akinci, Markus Ihmsen, Gizem Akinci, Barbara Solenthaler, and Matthias
+  Teschner.
+\newblock Versatile rigid-fluid coupling for incompressible sph.
+\newblock {\em ACM Trans. Graph.}, 31(4), jul 2012.
+
+\bibitem{WCSPH}
+Markus Becker and Matthias Teschner.
+\newblock Weakly compressible sph for free surface flows.
+\newblock volume~9, pages 209--217, 01 2007.
+
+\bibitem{2019TOG}
+Christoph Gissler, Andreas Peer, Stefan Band, Jan Bender, and Matthias
+  Teschner.
+\newblock Interlinked sph pressure solvers for strong fluid-rigid coupling.
+\newblock {\em ACM Trans. Graph.}, 38(1), jan 2019.
+
+\bibitem{IISPH}
+Markus Ihmsen, Jens Cornelis, Barbara Solenthaler, Christopher Horvath, and
+  Matthias Teschner.
+\newblock Implicit incompressible sph.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  20(3):426--435, 2014.
+
+\bibitem{SPH-Intro}
+Dan Koschier, Jan Bender, Barbara Solenthaler, and Matthias Teschner.
+\newblock Smoothed particle hydrodynamics techniques for the physics based
+  simulation of fluids and solids.
+\newblock 05 2019.
+
+\bibitem{Lewy1928}
+Courant~R. Lewy~H., Friedrichs~K.
+\newblock Über die partiellen differenzengleichungen der mathematischen
+  physik.
+\newblock {\em Mathematische Annalen}, 100:32--74, 1928.
+
+\bibitem{LBJB23}
+Fabian Löschner, Timna Böttcher, Stefan Rhys~Jeske, and Jan Bender.
+\newblock {Weighted Laplacian Smoothing for Surface Reconstruction of
+  Particle-based Fluids}.
+\newblock In {\em Vision, Modeling, and Visualization}. The Eurographics
+  Association, 2023.
+
+\bibitem{peer2018implicit}
+Andreas Peer, Christoph Gissler, Stefan Band, and Matthias Teschner.
+\newblock An implicit sph formulation for incompressible linearly elastic
+  solids.
+\newblock In {\em Computer Graphics Forum}, volume~37, pages 135--148. Wiley
+  Online Library, 2018.
+
+\bibitem{VFSPH}
+Andreas Peer, Markus Ihmsen, Jens Cornelis, and Matthias Teschner.
+\newblock An implicit viscosity formulation for sph fluids.
+\newblock {\em ACM Trans. Graph.}, 34(4), jul 2015.
+
+\end{thebibliography}

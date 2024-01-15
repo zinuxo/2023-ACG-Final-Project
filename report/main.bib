@@ -1,0 +1,120 @@
+@article{2019TOG,
+author = {Gissler, Christoph and Peer, Andreas and Band, Stefan and Bender, Jan and Teschner, Matthias},
+title = {Interlinked SPH Pressure Solvers for Strong Fluid-Rigid Coupling},
+year = {2019},
+issue_date = {February 2019},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {38},
+number = {1},
+issn = {0730-0301},
+url = {https://doi.org/10.1145/3284980},
+doi = {10.1145/3284980},
+abstract = {We present a strong fluid-rigid coupling for Smoothed Particle Hydrodynamics (SPH) fluids and rigid bodies with particle-sampled surfaces. The approach interlinks the iterative pressure update at fluid particles with a second SPH solver that computes artificial pressure at rigid-body particles. The introduced SPH rigid-body solver models rigid-rigid contacts as artificial density deviations at rigid-body particles. The corresponding pressure is iteratively computed by solving a global formulation that is particularly useful for large numbers of rigid-rigid contacts. Compared to previous SPH coupling methods, the proposed concept stabilizes the fluid-rigid interface handling. It significantly reduces the computation times of SPH fluid simulations by enabling larger time steps. Performance gain factors of up to 58 compared to previous methods are presented. We illustrate the flexibility of the presented fluid-rigid coupling by integrating it into DFSPH, IISPH, and a recent SPH solver for highly viscous fluids. We further show its applicability to a recent SPH solver for elastic objects. Large scenarios with up to 90M particles of various interacting materials and complex contact geometries with up to 90k rigid-rigid contacts are shown. We demonstrate the competitiveness of our proposed rigid-body solver by comparing it to Bullet.},
+journal = {ACM Trans. Graph.},
+month = {jan},
+articleno = {5},
+numpages = {13},
+keywords = {rigid-rigid contacts, Physically-based animation, smoothed particle hydrodynamics, fluid simulation, fluid-rigid coupling}
+}
+
+@inproceedings{SPH-Intro,
+author = {Koschier, Dan and Bender, Jan and Solenthaler, Barbara and Teschner, Matthias},
+year = {2019},
+month = {05},
+pages = {},
+title = {Smoothed Particle Hydrodynamics Techniques for the Physics Based Simulation of Fluids and Solids},
+doi = {10.2312/egt.20191035}
+}
+
+@ARTICLE{IISPH,
+  author={Ihmsen, Markus and Cornelis, Jens and Solenthaler, Barbara and Horvath, Christopher and Teschner, Matthias},
+  journal={IEEE Transactions on Visualization and Computer Graphics}, 
+  title={Implicit Incompressible SPH}, 
+  year={2014},
+  volume={20},
+  number={3},
+  pages={426-435},
+  doi={10.1109/TVCG.2013.105}}
+
+
+@inproceedings{WCSPH,
+author = {Becker, Markus and Teschner, Matthias},
+year = {2007},
+month = {01},
+pages = {209-217},
+title = {Weakly Compressible SPH for Free Surface Flows},
+volume = {9},
+journal = {Proceedings of the 2007 ACM SIGGRAPH/Eurographics Symposium on Computer Animation},
+doi = {10.1145/1272690.1272719}
+}
+
+@article{Lewy1928,
+author = {Lewy H., Friedrichs K., Courant R.},
+journal = {Mathematische Annalen},
+pages = {32-74},
+title = {Über die partiellen Differenzengleichungen der mathematischen Physik},
+url = {http://eudml.org/doc/159283},
+volume = {100},
+year = {1928},
+}
+
+@inproceedings{peer2018implicit,
+  title={An implicit SPH formulation for incompressible linearly elastic solids},
+  author={Peer, Andreas and Gissler, Christoph and Band, Stefan and Teschner, Matthias},
+  booktitle={Computer Graphics Forum},
+  volume={37},
+  number={6},
+  pages={135--148},
+  year={2018},
+  organization={Wiley Online Library}
+}
+
+@article{VFSPH,
+author = {Peer, Andreas and Ihmsen, Markus and Cornelis, Jens and Teschner, Matthias},
+title = {An Implicit Viscosity Formulation for SPH Fluids},
+year = {2015},
+issue_date = {August 2015},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {34},
+number = {4},
+issn = {0730-0301},
+url = {https://doi.org/10.1145/2766925},
+doi = {10.1145/2766925},
+abstract = {We present a novel implicit formulation for highly viscous fluids simulated with Smoothed Particle Hydrodynamics SPH. Compared to explicit methods, our formulation is significantly more efficient and handles a larger range of viscosities. Differing from existing implicit formulations, our approach reconstructs the velocity field from a target velocity gradient. This gradient encodes a desired shear-rate damping and preserves the velocity divergence that is introduced by the SPH pressure solver to counteract density deviations. The target gradient ensures that pressure and viscosity computation do not interfere. Therefore, only one pressure projection step is required, which is in contrast to state-of-the-art implicit Eulerian formulations. While our model differs from true viscosity in that vorticity diffusion is not encoded in the target gradient, it nevertheless captures many of the qualitative behaviors of viscous liquids. Our formulation can easily be incorporated into complex scenarios with one- and two-way coupled solids and multiple fluid phases with different densities and viscosities.},
+journal = {ACM Trans. Graph.},
+month = {jul},
+articleno = {114},
+numpages = {10},
+keywords = {viscosity, physically-based animation, smoothed particle hydrodynamics, fluid simulation}
+}
+
+@inproceedings {LBJB23,
+  booktitle = {Vision, Modeling, and Visualization},
+  title = {{Weighted Laplacian Smoothing for Surface Reconstruction of Particle-based Fluids}},
+  author = {Löschner, Fabian and Böttcher, Timna and Rhys Jeske, Stefan and Bender, Jan},
+  year = {2023},
+  publisher = {The Eurographics Association},
+  DOI = {10.2312/vmv.20231245}
+}
+
+@article{AK2012,
+author = {Akinci, Nadir and Ihmsen, Markus and Akinci, Gizem and Solenthaler, Barbara and Teschner, Matthias},
+title = {Versatile Rigid-Fluid Coupling for Incompressible SPH},
+year = {2012},
+issue_date = {July 2012},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {31},
+number = {4},
+issn = {0730-0301},
+url = {https://doi.org/10.1145/2185520.2185558},
+doi = {10.1145/2185520.2185558},
+abstract = {We propose a momentum-conserving two-way coupling method of SPH fluids and arbitrary rigid objects based on hydrodynamic forces. Our approach samples the surface of rigid bodies with boundary particles that interact with the fluid, preventing deficiency issues and both spatial and temporal discontinuities. The problem of inhomogeneous boundary sampling is addressed by considering the relative contribution of a boundary particle to a physical quantity. This facilitates not only the initialization process but also allows the simulation of multiple dynamic objects. Thin structures consisting of only one layer or one line of boundary particles, and also non-manifold geometries can be handled without any additional treatment. We have integrated our approach into WCSPH and PCISPH, and demonstrate its stability and flexibility with several scenarios including multiphase flow.},
+journal = {ACM Trans. Graph.},
+month = {jul},
+articleno = {62},
+numpages = {8},
+keywords = {fluid simulation, smoothed particle hydrodynamics, fluid-solid coupling, physically-based animation}
+}
